@@ -1,0 +1,44 @@
+.tile{
+    display: flex;
+    place-content: center;
+    width: 87.5px;
+    height: 87.5px;
+}
+
+.black-tile{
+    background-color: #779556;
+}
+
+.white-tile{
+    background-color: #ebecd0;
+}
+
+.tile img{
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.chess-piece{
+    /* This is width and height of the div */
+    width: 87.5px;
+    height: 87.5px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    /* And this is background image size */
+    background-size: 75px;
+
+
+}
+
+.chess-piece:hover{
+    cursor: grab;
+
+    
+}
+
+.chess-piece:active{
+    cursor: grabbing;
+
+    
+}
